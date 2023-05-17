@@ -4,7 +4,6 @@
 .main-page{
     width: 100%;
     height: 98vh;
-    border: solid 1px red;
     display: flex;
 }
 .main-view{
@@ -190,5 +189,180 @@
 #himage{
     margin-left:10px; 
 }
-
-
+.weather-forecast{
+    background-color:rgb(204, 18, 18);
+    color: white;
+    margin-top: 10px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-left: 1px;
+    height: 50px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.63);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.63);
+}
+.three-days-box{
+    margin-top: 15px;
+    width: 50%;
+    height: 150px;
+    display: flex;
+    margin-left: 1px;
+}
+.box{
+    background: linear-gradient(135deg,#0ed7f1,#31064e);
+    flex: 1;
+    border-radius: 10px;
+    margin-right: 20px;
+    -webkit-box-shadow: 12px 14px 19px -10px rgba(0,0,0,0.98);
+    -moz-box-shadow: 12px 14px 19px -10px rgba(0,0,0,0.98);
+    box-shadow: 12px 14px 19px -10px rgba(0,0,0,0.98);
+}
+.logo-temp{
+    margin-top: 0px;
+    width: 100%;
+    height: 25%;
+    display: flex;
+    align-items: center;
+}
+.temp{
+    color: #fff;
+    margin-top: 5px;
+    margin-left: 2px;
+    
+    font-size: 18pt;
+    flex: 2;
+}
+#f1weather-image{
+    flex: 1;
+}
+.f1image>img{
+    height: 50px;
+}
+.fstatus{
+    background-color: #fff;
+    display: flex;
+    justify-content: center;
+}
+.fhum-speed{
+    margin-top: 10px;
+    height: 60px;
+    display: flex;
+}
+.fhum{
+    flex: 1;
+}
+.fspeed{
+    flex: 1;
+}
+.fhum-value{
+    display: flex;
+    justify-content: center;
+    font-size: 10pt;
+    color: #fff;
+}
+.fhum-image{
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+}
+.fhum-image>img{
+    height: 25px;
+}
+.day{
+    margin-top: 5px;
+    display: flex;
+    font-size: 12pt;
+    font-weight: bold;
+    justify-content: center;
+}
+.histroy-text{
+    background-color:rgb(204, 18, 18);
+    color: white;
+    margin-top: 30px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 450px;
+    margin-left: 1px;
+    height: 50px;
+    -webkit-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.63);
+    -moz-box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.63);
+    box-shadow: 0px 3px 5px 0px rgba(0,0,0,0.63);
+}
+.seven-days-box{
+    margin-top: 15px;
+    width: 100%;
+    height: 150px;
+    display: flex;
+    margin-left: 1px;
+}
+.box2{
+    background: linear-gradient(135deg,#0ed7f1,#31064e);
+    flex: 1;
+    width: 10px;
+    border-radius: 10px;
+    margin-right: 5px;
+    -webkit-box-shadow: 12px 14px 19px -10px rgba(0,0,0,0.98);
+    -moz-box-shadow: 12px 14px 19px -10px rgba(0,0,0,0.98);
+    box-shadow: 12px 14px 19px -10px rgba(0,0,0,0.98);
+}
+.top-div{
+    display: flex;
+}
+.forecast-boxes{
+    flex: 1;
+}
+.radar{
+    flex: 1;
+}
+.div24{
+    margin-left: 1px;
+    margin-top: 20px;
+    display: flex;
+    height: 70px;   
+}
+.box24{
+    border-left: 2px solid white;
+    background-color: #31064e;
+    font-size: 10pt;
+    flex: 1;
+}
+.ntemp{
+    color:white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.nimage{
+    width: 95%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.nimage>img{
+    height: 30px;
+}
+.ntime{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#nextd{
+    margin-top: 30px;
+}
+.radar{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.radarmap{
+    border-radius: 10px;
+    height: 200px;
+    width: 400px;
+}
