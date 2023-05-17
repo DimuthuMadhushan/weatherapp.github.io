@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CeylonWeather</title>
+    <link rel="shortcut icon" href="image/sun.jpg" type="image/x-icon">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+   <div class="main-page">
+        <div class="main-view">
+            <div class="logo-topic">
+                <div class="logo">
+                    <img class="sun-image" src="/image/sun.jpg" >
+                </div>
+                <div class="topic">Ceylon Weather</div>
+            </div>
+            <div class="search-div">
+                <input  id="search-bar" type="text" placeholder="enter the city" spellcheck="false">
+                    <button id="my-location-button"><img src="image/mylocation.png" ></button>
+                    <button id="search-button" >Search</button>
+            </div>
+            <div id="invalid-city">city does not exist..!</div>
+            <div id="weather-imagediv">
+                <div class="img-div">
+                    <img src="image/clouds.png" >
+                </div>
+                <div id="text">
+                    <div id="status">Clouds</div>
+                    <div id="temperature">22 
+                        <button id="celcius-button">°C</button>
+                        <button id="faranhite-button">| °F</button>
+                    </div>
+                </div>   
+            </div>
+            <div id="city-name">Colombo</div>   
+            <div class="humid-wind">
+                <div class="humid">
+                    <div class="hwimage" id="himage">
+                        <img class="humid-wind-image" src="image/humidity.png" >
+                    </div>
+                    <div class="hwtext">
+                        <div id="humid-value">100%</div>
+                        <div class="humid-wind-name">Humidity</div>
+                    </div>
+                </div>
+                <div class="humid">
+                    <div class="hwimage">
+                        <img class="humid-wind-image" src="image/wind.png" >
+                    </div>
+                    <div class="hwtext">
+                        <div id="speed-value">130
+                            <button id="speed-unit-button">km/h</button>
+                        </div>
+                        <div class="humid-wind-name">Wind Speed</div>
+                    </div>
+                </div>
+            </div>  
+        </div>
+        <div class="second-view">
+        </div>
+   </div> 
+</body>
+</html>
