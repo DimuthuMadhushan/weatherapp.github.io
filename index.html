@@ -13,54 +13,34 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
 </head>
 <body>
-        <div class="main-view">
-            <div class="logo-topic">
-                <div class="logo">
-                    <img class="sun-image" src="image/sun.jpg" >
-                </div>
-                <div class="topic">Ceylon Weather</div>
+    <div class="main-view">
+        <div class="logo-topic">
+            <div class="logo">
+                <img class="sun-image" src="image/sun.jpg" >
             </div>
-                <input  id="search-bar" type="text" placeholder="enter the city" spellcheck="false">
-                    <button id="my-location-button"><img src="image/mylocation.png" ></button>
-                    <button onclick="sendCurrentLocation()" id="search-button" >Search</button>
-            <div id="invalid-city">Plan your day</div>
-                <div class="img-div">
-                    <img id="statusImage" src="image/clouds.png" >
-                </div>
-                <div id="text">
-                    <div id="status">Clouds</div>
-                    <div id="temperature">
-                        <p id="ctemp">22</p> 
-                        <button id="celcius-button">°C</button>
-                        <button id="faranhite-button">| °F</button>
-                    </div>
-                </div>   
-            
-            <div id="city-name">Colombo</div>   
-            <div class="humid-wind">
-                <div class="humid">
-                    <div class="hwimage" id="himage">
-                        <img class="humid-wind-image" src="image/humidity.png" >
-                    </div>
-                    <div class="hwtext">
-                        <div id="humid-value">100%</div>
-                        <div class="humid-wind-name">Humidity</div>
-                    </div>
-                </div>
-                <div class="humid">
-                    <div class="hwimage">
-                        <img class="humid-wind-image" src="image/wind.png" >
-                    </div>
-                    <div class="hwtext">
-                        <div id="speed-value" >
-                            <p id="wind-speed-value"></p>
-                            <button id="speed-unit-button">km/h</button>
-                        </div>
-                        <div class="humid-wind-name">Wind Speed</div>
-                    </div>
-                </div>
-            </div>  
+            <div class="topic">Ceylon Weather</div>
         </div>
+        <input  id="search-bar" type="text" placeholder="enter the city" spellcheck="false">
+        <button id="my-location-button"><img src="image/mylocation.png" ></button>
+        <button onclick="sendCurrentLocation()" id="search-button" >Search</button>
+        <div id="invalid-city">Plan your day</div>
+        <div id="city-name">Colombo</div> 
+        <div id="date-time"></div>
+        <div class="img-div"></div>
+        <img id="statusImage" src="image/clouds.png" >
+        <div id="temperature">
+             <p id="ctemp">22</p> 
+            <button id="celcius-button">°C</button>
+        </div>
+        <div id="status">Clouds</div>
+        <div id="humid-value">100%</div>
+        <p id="wind-speed-value"></p>
+        <button id="speed-unit-button">kph</button>
+        <img id="humidity-image" src="image/humidity.png" >
+        <img id="wind-image" src="image/wind.png" > 
+        <div id="humid-name">Humidity</div>
+        <div id="wind-name">Wind Speed</div>
+    </div>
         <div class="second-view">
             <div class="top-div">
                 <div class="forecast-boxes">
@@ -70,7 +50,11 @@
                         <div class="box" >
                             <div class="day" id="day1">2023/05/17</div>
                             <div class="logo-temp">
-                                <div  class="temp" id="f1temperature">22°|35°</div>
+                                <div  class="temp" >
+                                    <div  id="f1temperature"></div>
+                                    <div>|</div>
+                                    <div id="f1temperaturef"></div>
+                                </div>
                                 <div class="f1image"><img id="f1weather-image" src="image/clouds.png" ></div>
                             </div>
                             <div class="fstatus" id="f1status">Clouds</div>
@@ -80,7 +64,7 @@
                                     <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                                 </div>
                                 <div class="fspeed">
-                                    <div class="fhum-value" id="f1speed-value">130km/h</div>
+                                    <div class="fhum-value" id="f1speed-value"></div>
                                     <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                                 </div>
                             </div>
@@ -88,7 +72,11 @@
                         <div class="box" >
                             <div class="day" id="day2">2023/05/17</div>
                             <div class="logo-temp">
-                                <div  class="temp" id="f2temperature">22°|35°</div>
+                                <div  class="temp" >
+                                    <div  id="f2temperature"></div>
+                                    <div>|</div>
+                                    <div id="f2temperaturef"></div>
+                                </div>
                                 <div class="f1image"><img id="f2weather-image" src="image/clouds.png" ></div>
                             </div>
                             <div class="fstatus" id="f2status">Clouds</div>
@@ -98,7 +86,7 @@
                                     <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                                 </div>
                                 <div class="fspeed">
-                                    <div class="fhum-value" id="f2speed-value">130km/h</div>
+                                    <div class="fhum-value" id="f2speed-value"></div>
                                     <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                                 </div>
                             </div>
@@ -106,7 +94,11 @@
                         <div class="box" >
                             <div class="day" id="day3">2023/05/17</div>
                             <div class="logo-temp">
-                                <div  class="temp" id="f3temperature">22°|35°</div>
+                                <div  class="temp">
+                                    <div  id="f3temperature"></div>
+                                    <div>|</div>
+                                    <div id="f3temperaturef"></div>
+                                </div>
                                 <div class="f1image"><img id="f3weather-image" src="image/clouds.png" ></div>
                             </div>
                             <div class="fstatus" id="f3status">Clouds</div>
@@ -116,7 +108,7 @@
                                     <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                                 </div>
                                 <div class="fspeed">
-                                    <div class="fhum-value" id="f3speed-value">130km/h</div>
+                                    <div class="fhum-value" id="f3speed-value"></div>
                                     <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                                 </div>
                             </div>
@@ -132,7 +124,11 @@
                 <div class="box2" id="box21">
                     <div class="day" id="hday1">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h1temperature">22°|35°</div>
+                        <div  class="temp" >
+                            <div  id="h1temperature"></div>
+                            <div>|</div>
+                            <div id="h1temperaturef"></div>
+                        </div>
                         <div class="f1image" ><img id="h1weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h1status">Clouds</div>
@@ -142,7 +138,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h1speed-value">130km/h</div>
+                            <div class="fhum-value" id="h1speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
@@ -150,7 +146,11 @@
                 <div class="box2" id="box22">
                     <div class="day" id="hday2">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h2temperature">22°|35°</div>
+                        <div  class="temp" >
+                            <div  id="h2temperature"></div>
+                            <div>|</div>
+                            <div id="h2temperaturef"></div>
+                        </div>
                         <div class="f1image"><img id="h2weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h2status">Clouds</div>
@@ -160,7 +160,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h2speed-value">130km/h</div>
+                            <div class="fhum-value" id="h2speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
@@ -168,7 +168,11 @@
                 <div class="box2" id="box23">
                     <div class="day" id="hday3">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h3temperature">22°|35°</div>
+                        <div  class="temp" >
+                            <div  id="h3temperature"></div>
+                            <div>|</div>
+                            <div id="h3temperaturef"></div>
+                        </div>
                         <div class="f1image" ><img id="h3weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h3status">Clouds</div>
@@ -178,7 +182,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h3speed-value">130km/h</div>
+                            <div class="fhum-value" id="h3speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
@@ -186,7 +190,11 @@
                 <div class="box2" id="box24">
                     <div class="day" id="hday4">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h4temperature">22°|35°</div>
+                        <div  class="temp">
+                            <div  id="h4temperature"></div>
+                            <div>|</div>
+                            <div id="h4temperaturef"></div>
+                        </div>
                         <div class="f1image" ><img id="h4weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h4status">Clouds</div>
@@ -196,7 +204,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h4speed-value">130km/h</div>
+                            <div class="fhum-value" id="h4speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
@@ -204,7 +212,11 @@
                 <div class="box2" id="box25">
                     <div class="day" id="hday5">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h5temperature">22°|35°</div>
+                        <div  class="temp" >
+                            <div  id="h5temperature"></div>
+                            <div>|</div>
+                            <div id="h5temperaturef"></div>
+                        </div>
                         <div class="f1image" ><img id="h5weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h5status">Clouds</div>
@@ -214,7 +226,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h5speed-value">130km/h</div>
+                            <div class="fhum-value" id="h5speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
@@ -222,7 +234,11 @@
                 <div class="box2" id="box26">
                     <div class="day" id="hday6">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h6temperature">22°|35°</div>
+                        <div  class="temp" >
+                            <div  id="h6temperature"></div>
+                            <div>|</div>
+                            <div id="h6temperaturef"></div>
+                        </div>
                         <div class="f1image" ><img id="h6weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h6status">Clouds</div>
@@ -232,7 +248,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h6speed-value">130km/h</div>
+                            <div class="fhum-value" id="h6speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
@@ -240,7 +256,11 @@
                 <div class="box2" id="box27">
                     <div class="day" id="hday7">2023/05/17</div>
                     <div class="logo-temp">
-                        <div  class="temp" id="h7temperature">22°|35°</div>
+                        <div  class="temp" >
+                            <div  id="h7temperature"></div>
+                            <div>|</div>
+                            <div id="h7temperaturef"></div>
+                        </div>
                         <div class="f1image" ><img id="h7weather-image" src="image/clouds.png" ></div>
                     </div>
                     <div class="fstatus" id="h7status">Clouds</div>
@@ -250,7 +270,7 @@
                             <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
                         </div>
                         <div class="fspeed">
-                            <div class="fhum-value" id="h7speed-value">130km/h</div>
+                            <div class="fhum-value" id="h7speed-value"></div>
                             <div class="fhum-image"><img src="image/wind.png" alt=""></div>
                         </div>
                     </div>
