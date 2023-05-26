@@ -80,7 +80,8 @@ kphButton.addEventListener('click',async()=>{
         document.getElementById("speed-unit-button").innerHTML="mph";
         document.getElementById("wind-speed-value").innerHTML=convertTomph(document.getElementById("wind-speed-value").innerHTML);
         console.log(document.getElementById("f1speed-value"));
-        for(var i=1;1<4;i++){
+        console.log(document.getElementById("h1speed-value").innerHTML);
+        for(var i=1;i<4;i++){
             document.getElementById("f"+i+"speed-value").innerHTML=convertTomph(parseFloat(document.getElementById("f"+i+"speed-value").innerHTML));
         }
 
@@ -91,10 +92,9 @@ kphButton.addEventListener('click',async()=>{
         document.getElementById("speed-unit-button").innerHTML="kph";
         document.getElementById("wind-speed-value").innerHTML=convertTokph(parseFloat(document.getElementById("wind-speed-value").innerHTML));
 
-        for(var i=1;1<4;i++){
+        for(var i=1;i<4;i++){
             document.getElementById("f"+i+"speed-value").innerHTML=convertTokph(parseFloat(document.getElementById("f"+i+"speed-value").innerHTML));
         }
-        console.log(document.getElementById("f"+i+"speed-value").innerHTML);
         for(var i=1;i<8;i++){
             document.getElementById("h"+i+"speed-value").innerHTML=convertTokph(parseFloat(document.getElementById("h"+i+"speed-value").innerHTML));
         }
@@ -153,7 +153,7 @@ function checkHistory(cityName){
         var hstatus ="h"+(i+1)+"status";
         var wimage="h"+(i+1)+"weather-image";
         var hhumid="h"+(i+1)+"hum-value";
-        var wspeed="h"+(i+1)+"speed-value"
+        var wspeed="h"+(i+1)+"speed-value";
 
         fetchLoop(idc,idf,hstatus,wimage,hhumid,wspeed,cityName,today);
         
