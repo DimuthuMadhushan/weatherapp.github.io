@@ -1,13 +1,21 @@
 const apiKey="f3373d156860410a8d683135231405";
 const apiurl="http://api.weatherapi.com/v1/current.json?key=f3373d156860410a8d683135231405&q=";
 
-checkCurrentWeather("Kalutara");
+checkCurrentWeather("Colombo");
 function sendCurrentLocation(){
+    document.getElementById("search-button").style.backgroundColor='#fff';
     var searchedLocation=document.getElementById("search-bar").value;
     checkCurrentWeather(searchedLocation);
 }
+function Leave(){
+    document.getElementById("search-button").style.backgroundColor='grey';
+}
+function Leavel(){
+    document.getElementById("my-location-button").style.backgroundColor='grey';
+}
 const myLocationButton =document.getElementById("my-location-button");
 myLocationButton.addEventListener('click',async()=>{
+    document.getElementById("my-location-button").style.backgroundColor='#fff';
     navigator.geolocation.getCurrentPosition(gotLocation,faildLocation);
     document.getElementById("search-bar").value="";
 });
@@ -30,15 +38,147 @@ async function checkCurrentWeather(cityName){
         document.getElementById("invalid-city").innerHTML="Plan your day";
         document.getElementById("invalid-city").style.removeProperty("background-color");
         var data=await response.json();
-        var weatherCode=data.current.condition.icon;
         var temp=Math.round(data.current.temp_c);
         document.getElementById("city-name").innerHTML=data.location.name;
         document.getElementById("ctemp").innerHTML=temp;
         document.getElementById("status").innerHTML=data.current.condition.text;
         document.getElementById("humid-value").innerHTML=data.current.humidity+"%";
         document.getElementById("wind-speed-value").innerHTML=data.current.wind_kph;
-        document.getElementById("statusImage").src=weatherCode;
+
+        var weatherCode=data.current.condition.code;
         document.getElementById("date-time").innerHTML=data.current.last_updated;
+
+        var t=data.current.last_updated.slice(-5);
+        var hourofTime=parseInt(t.slice(0,2));
+        if(hourofTime>=6&&hourofTime<=18){
+            if(weatherCode==1000){
+                document.getElementById("statusImage").src="image/113.png"
+            }else if(weatherCode==1003){
+                document.getElementById("statusImage").src="image/116.png"
+            }else if(weatherCode==1006){
+                document.getElementById("statusImage").src="image/119.png"
+            }else if(weatherCode==1009){
+                document.getElementById("statusImage").src="image/122.png"
+            }else if(weatherCode==1030){
+                document.getElementById("statusImage").src="image/143.png"
+            }else if(weatherCode==1063||weatherCode==1180||weatherCode==1186){
+                document.getElementById("statusImage").src="image/176.png"
+            }else if(weatherCode==1066||weatherCode==1210||weatherCode==1216||weatherCode==1255){
+                document.getElementById("statusImage").src="image/179.png"
+            }else if(weatherCode==1069||weatherCode==1249){
+                document.getElementById("statusImage").src="image/182.png"
+            }else if(weatherCode==1072||weatherCode==1168||weatherCode==1198||weatherCode==1201){
+                document.getElementById("statusImage").src="image/185.png"
+            }else if(weatherCode==1087||weatherCode==1273){
+                document.getElementById("statusImage").src="image/200.png"
+            }else if(weatherCode==1114){
+                document.getElementById("statusImage").src="image/227.png"
+            }else if(weatherCode==1117){
+                document.getElementById("statusImage").src="image/230.png"
+            }else if(weatherCode==1135){
+                document.getElementById("statusImage").src="image/248.png"
+            }else if(weatherCode==1147){
+                document.getElementById("statusImage").src="image/260.png"
+            }else if(weatherCode==1150||weatherCode==1153){
+                document.getElementById("statusImage").src="image/263.png"
+            }else if(weatherCode==1171){
+                document.getElementById("statusImage").src="image/284.png"
+            }else if(weatherCode==1183||weatherCode==1189){
+                document.getElementById("statusImage").src="image/296.png"
+            }else if(weatherCode==1192||weatherCode==1242){
+                document.getElementById("statusImage").src="image/356.png"
+            }else if(weatherCode==1195){
+                document.getElementById("statusImage").src="image/308.png"
+            }else if(weatherCode==1207||weatherCode==1204){
+                document.getElementById("statusImage").src="image/320.png"
+            }else if(weatherCode==1213||weatherCode==1219){
+                document.getElementById("statusImage").src="image/326.png"
+            }else if(weatherCode==1222||weatherCode==1258){
+                document.getElementById("statusImage").src="image/335.png"
+            }else if(weatherCode==1225){
+                document.getElementById("statusImage").src="image/338.png"
+            }else if(weatherCode==1237){
+                document.getElementById("statusImage").src="image/350.png"
+            }else if(weatherCode==1246){
+                document.getElementById("statusImage").src="image/359.png"
+            }else if(weatherCode==1252){
+                document.getElementById("statusImage").src="image/365.png"
+            }else if(weatherCode==1261){
+                document.getElementById("statusImage").src="image/374.png"
+            }else if(weatherCode==1264){
+                document.getElementById("statusImage").src="image/377.png"
+            }else if(weatherCode==1276){
+                document.getElementById("statusImage").src="image/389.png"
+            }else if(weatherCode==1279){
+                document.getElementById("statusImage").src="image/392.png"
+            }else{
+                document.getElementById("statusImage").src="image/395.png"
+            }
+        }else{
+            if(weatherCode==1000){
+                document.getElementById("statusImage").src="image/113n.png"
+            }else if(weatherCode==1003){
+                document.getElementById("statusImage").src="image/116n.png"
+            }else if(weatherCode==1006){
+                document.getElementById("statusImage").src="image/119n.png"
+            }else if(weatherCode==1009){
+                document.getElementById("statusImage").src="image/122.png"
+            }else if(weatherCode==1030){
+                document.getElementById("statusImage").src="image/143.png"
+            }else if(weatherCode==1063||weatherCode==1180||weatherCode==1186){
+                document.getElementById("statusImage").src="image/176n.png"
+            }else if(weatherCode==1066||weatherCode==1210||weatherCode==1216||weatherCode==1255){
+                document.getElementById("statusImage").src="image/179n.png"
+            }else if(weatherCode==1069||weatherCode==1249){
+                document.getElementById("statusImage").src="image/182n.png"
+            }else if(weatherCode==1072||weatherCode==1168||weatherCode==1198||weatherCode==1201){
+                document.getElementById("statusImage").src="image/185.png"
+            }else if(weatherCode==1087||weatherCode==1273){
+                document.getElementById("statusImage").src="image/200n.png"
+            }else if(weatherCode==1114){
+                document.getElementById("statusImage").src="image/227.png"
+            }else if(weatherCode==1117){
+                document.getElementById("statusImage").src="image/230.png"
+            }else if(weatherCode==1135){
+                document.getElementById("statusImage").src="image/248.png"
+            }else if(weatherCode==1147){
+                document.getElementById("statusImage").src="image/260.png"
+            }else if(weatherCode==1150||weatherCode==1153){
+                document.getElementById("statusImage").src="image/263.png"
+            }else if(weatherCode==1171){
+                document.getElementById("statusImage").src="image/284.png"
+            }else if(weatherCode==1183||weatherCode==1189){
+                document.getElementById("statusImage").src="image/296.png"
+            }else if(weatherCode==1192||weatherCode==1242){
+                document.getElementById("statusImage").src="image/356n.png"
+            }else if(weatherCode==1195){
+                document.getElementById("statusImage").src="image/308.png"
+            }else if(weatherCode==1207||weatherCode==1204){
+                document.getElementById("statusImage").src="image/320.png"
+            }else if(weatherCode==1213||weatherCode==1219){
+                document.getElementById("statusImage").src="image/326.png"
+            }else if(weatherCode==1222||weatherCode==1258){
+                document.getElementById("statusImage").src="image/335n.png"
+            }else if(weatherCode==1225){
+                document.getElementById("statusImage").src="image/338.png"
+            }else if(weatherCode==1237){
+                document.getElementById("statusImage").src="image/350.png"
+            }else if(weatherCode==1246){
+                document.getElementById("statusImage").src="image/359n.png"
+            }else if(weatherCode==1252){
+                document.getElementById("statusImage").src="image/365.png"
+            }else if(weatherCode==1261){
+                document.getElementById("statusImage").src="image/374n.png"
+            }else if(weatherCode==1264){
+                document.getElementById("statusImage").src="image/377n.png"
+            }else if(weatherCode==1276){
+                document.getElementById("statusImage").src="image/389.png"
+            }else if(weatherCode==1279){
+                document.getElementById("statusImage").src="image/392n.png"
+            }else{
+                document.getElementById("statusImage").src="image/395.png"
+            }
+        }
 
         for(var i=1;i<4;i++){
             document.getElementById("day"+i).innerHTML=data.forecast.forecastday[i].date;
@@ -167,7 +307,6 @@ function fetchLoop(idc,idf,hstatus,wimage,hhumid,wspeed,cityName,today){
     .then(json=>{
         var maxtemp=Math.round(json.forecast.forecastday[0].day.maxtemp_c);
         var mintemp=Math.round(json.forecast.forecastday[0].day.mintemp_c);
-        console.log(mintemp);
         document.getElementById(idc).innerHTML=mintemp+"°";
         document.getElementById(idf).innerHTML=maxtemp+"°";
         document.getElementById(hstatus).innerHTML=json.forecast.forecastday[0].day.condition.text;
