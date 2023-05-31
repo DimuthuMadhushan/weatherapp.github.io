@@ -501,15 +501,15 @@ and (max-device-width : 600px) {
     #search-bar{
         top:60px;
         height: 30px;
-        width: 240px;
+        width: 230px;
         font-size: 15pt;
-        padding-left: 10px;      
+        padding-left: 5px;      
         margin-left: 25px;
        
     }
     #my-location-button{
         top:65px;
-        left: 280px;
+        left: 265px;
         width: 25Px;
         height:25px;
         border-radius: 100px;
@@ -519,12 +519,12 @@ and (max-device-width : 600px) {
     }
     #search-button{
         top: 65px;
-        left: 310px;
+        left: 286px;
         padding: 5px;
         font-size: 10pt; 
     }
     #invalid-city{
-        margin-top: 40px;
+        margin-top: 45px;
         margin-left: 25px;
         color: rgb(216, 238, 18);
         font-size: 10pt;
@@ -596,43 +596,43 @@ and (max-device-width : 600px) {
     #humid-value{
         position: absolute;
         top: 360px;
-        left: 80px;
-        font-size: 30pt;
+        left: 60px;
+        font-size: 24pt;
     }
     #wind-speed-value{
         position: absolute;
         top: 360px;
-        left: 230px;
-        font-size: 30pt;
+        left: 210px;
+        font-size: 24pt;
     }
     #speed-unit-button{
         width: 60px;
         height: 40px;
         position: absolute;
         top: 365px;
-        left: 310px;
-        font-size: 18pt;
+        left: 290px;
+        font-size: 14pt;
        
     }
     #humidity-image{
         position: absolute;
         top: 410px;
-        left: 80px;
+        left: 60px;
     }
     #wind-image{
         position: absolute;
         top: 410px;
-        left: 240px;
+        left: 220px;
     }
     #humid-name{
         position: absolute;
         top: 480px;
-        left: 80px;
+        left: 60px;
     }
     #wind-name{
         position: absolute;
         top: 480px;
-        left: 210px;
+        left: 190px;
     }
     .weather-forecast{
         position: absolute;
@@ -640,13 +640,13 @@ and (max-device-width : 600px) {
         height: 4%;
         display: flex;
         font-size: 100%;
-        top: 0%;
+        top: 20px;
         left: 18%;
     }
     .three-days-box{
         scale: 1;
         position: absolute;
-        top:40px;
+        top:60px;
         left: 22%;
         scale: 1;
     }
@@ -656,7 +656,7 @@ and (max-device-width : 600px) {
         height: 4%;
         display: flex;
         font-size: 100%;
-        top: 24%;
+        top: 220px;
         left: 18%;
     }
     .seven-days-box{
@@ -669,59 +669,59 @@ and (max-device-width : 600px) {
     }
     #box21{
         position: absolute;
-        top: 0%; 
+        top: 10px; 
         scale: 1;  
-        left: 15%;
+        left: 50px;
         height: 170px;
-        width: 140px;
+        width: 130px;
     }   
      #box22{
         position: absolute;
-        top: 0%; 
+        top: 10px; 
         scale: 1;  
-        left: 55%;
+        left: 200px;
         height: 170px;
-        width: 140px;
+        width: 130px;
     }    
     #box23{
         position: absolute;
-        top: 35%; 
+        top: 200px; 
         scale: 1;  
-        left: 15%;
+        left: 50px;
         height: 170px;
-        width: 140px;   
+        width: 130px;   
     }    
     #box24{
         position: absolute;
-        top: 35%; 
+        top: 200px; 
         scale: 1;  
-        left: 55%;
+        left: 200px;
         height: 170px;
-        width: 140px;  
+        width: 130px;  
     }    
     #box25{
         position: absolute;
-        top: 70%; 
+        top: 390px; 
         scale: 1;  
-        left: 15%;
+        left: 50px;
         height: 170px;
-        width: 140px;  
+        width: 130px;  
     }    
     #box26{
         position: absolute;
-        top: 70%; 
+        top: 390px; 
         scale: 1;  
-        left: 55%;
+        left: 200px;
         height: 170px;
-        width: 140px;
+        width: 130px;
     }    
     #box27{
         position: absolute;
-        top: 105%; 
+        top: 580px; 
         scale: 1;  
-        left: 35%;
+        left: 120px;
         height: 170px;
-        width: 140px;   
+        width: 130px;   
     } 
     .f1image>img{
         margin-right: 15px;
