@@ -1,5 +1,5 @@
 const apiKey="f3373d156860410a8d683135231405";
-const apiurl="http://api.weatherapi.com/v1/current.json?key=f3373d156860410a8d683135231405&q=";
+const apiurl="https://api.weatherapi.com/v1/current.json?key=f3373d156860410a8d683135231405&q=";
 
 checkCurrentWeather("Galle");
 function setLocationWeatherData(){
@@ -32,7 +32,7 @@ function Leavel(){
 const myLocationButton =document.getElementById("my-location-button");
 
 async function checkCurrentWeather(cityName){
-    var response =await fetch(`http://api.weatherapi.com/v1/forecast.json?key=f3373d156860410a8d683135231405&q=${cityName}&days=3&alerts=yes`);
+    var response =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=f3373d156860410a8d683135231405&q=${cityName}&days=3&alerts=yes`);
     
     if(response.status==400){
         document.getElementById("invalid-city").innerHTML="Invalid city name..!";
@@ -316,7 +316,7 @@ function checkHistory(cityName){
     }
 }
 function fetchLoop(idc,idf,hstatus,wimage,hhumid,wspeed,cityName,today){
-    fetch(`http://api.weatherapi.com/v1/history.json?key=f3373d156860410a8d683135231405&q=${cityName}&dt=${today}`)
+    fetch(`https://api.weatherapi.com/v1/history.json?key=f3373d156860410a8d683135231405&q=${cityName}&dt=${today}`)
     .then(response=>response.json())
     .then(json=>{
         var maxtemp=Math.round(json.forecast.forecastday[0].day.maxtemp_c);
@@ -330,7 +330,7 @@ function fetchLoop(idc,idf,hstatus,wimage,hhumid,wspeed,cityName,today){
     });
 }
  async function checkLocationWeather(lang,longt){
-    var response =await fetch(`http://api.weatherapi.com/v1/forecast.json?key=f3373d156860410a8d683135231405&q=${lang},${longt}&days=4`);
+    var response =await fetch(`https://api.weatherapi.com/v1/forecast.json?key=f3373d156860410a8d683135231405&q=${lang},${longt}&days=4`);
     if(response.status==400){
         document.getElementById("invalid-city").innerHTML="Invalid city name..!";
         document.getElementById("invalid-city").style.backgroundColor = "red";
