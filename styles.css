@@ -733,7 +733,7 @@ and (max-device-width : 600px) {
         height: 4%;
         display: flex;
         font-size: 100%;
-        top: 128%;
+        top: 1050px;
         left: 18%;
     }
     .ntemp{
@@ -751,139 +751,133 @@ and (max-device-width : 600px) {
         height: 10%;  
         
     }
-    .div24{
-        margin-left: 1px;
-        margin-top:1000px;
-        display: flex;
-        height: 100px;
-        margin-left: 100px;
-    }
+    
     #box241{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 40px;
         
     }#box242{
         position: absolute;
-        top :140%;
+        top :1130px;
         left:80px;
     }
     #box243{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 120px;
     }
     #box244{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 160px;
     }
     #box245{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 200px;
     }
     #box246{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 240px;
     }
     #box247{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 280px;
     }
     #box248{
         position: absolute;
-        top :140%;
+        top :1130px;
         left: 320px;
     }
     #box249{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 40px;
     }
     #box2410{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 80px;
     }
     #box2411{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 120px;
     }
     #box2412{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 160px;
     }
     #box2413{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 200px;
     }#box2414{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 240px;
     }
     #box2415{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 280px;
     }
     #box2416{
         position: absolute;
-        top :152%;
+        top :1220px;
         left: 320px;
     }
     #box2417{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 40px;
     }
     #box2418{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 80px;
     }
     #box2419{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 120px;
     }
     #box2420{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 160px;
     }
     #box2421{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 200px;
     }
     #box2422{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 240px;
     }
     #box2423{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 280px;
     }
     #box2424{
         position: absolute;
-        top :164%;
+        top :1310px;
         left: 320px;
     }
     .radarmap{
         position: absolute;
-        top: 176%;
+        top: 1410px;
         border-radius: 10px;
-        height: 30%;
-        width: 130%;
-        left: 5%;
+        height: 250px;
+        width: 320px;
+        left:30px;
     }
 
 
