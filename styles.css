@@ -544,7 +544,6 @@ and (max-device-width : 600px) {
         margin-left: 40px;
     } 
     #date{
-        border: #ec0202 solid;
         position: absolute;
         top: 160px;
         left: 160px;
@@ -568,14 +567,12 @@ and (max-device-width : 600px) {
         font-size: 18pt;
     }
     #walerts{
-        border: 1px solid red;
         position: absolute;
         width: 100%;
         top: 330px;
         height: 30px;
     }
     #temperature{
-        border: 1px solid red;
         position: absolute;
         width: 60px;
         height: 40px;
@@ -660,18 +657,17 @@ and (max-device-width : 600px) {
         left: 18%;
     }
     .seven-days-box{
-        border: 1px solid red;
         position:absolute ;
-        top:33%;
-        left: 2%;
-        width: 130%;
-        height: 70%;
+        top:300px;
+        left: 60px;
+        width: 300px;
+        height: 750px;
     }
     #box21{
         position: absolute;
         top: 10px; 
         scale: 1;  
-        left: 50px;
+        left: 10px;
         height: 170px;
         width: 130px;
     }   
@@ -679,7 +675,7 @@ and (max-device-width : 600px) {
         position: absolute;
         top: 10px; 
         scale: 1;  
-        left: 200px;
+        left: 160px;
         height: 170px;
         width: 130px;
     }    
@@ -687,7 +683,7 @@ and (max-device-width : 600px) {
         position: absolute;
         top: 200px; 
         scale: 1;  
-        left: 50px;
+        left: 10px;
         height: 170px;
         width: 130px;   
     }    
@@ -695,7 +691,7 @@ and (max-device-width : 600px) {
         position: absolute;
         top: 200px; 
         scale: 1;  
-        left: 200px;
+        left: 160px;
         height: 170px;
         width: 130px;  
     }    
@@ -703,7 +699,7 @@ and (max-device-width : 600px) {
         position: absolute;
         top: 390px; 
         scale: 1;  
-        left: 50px;
+        left: 10px;
         height: 170px;
         width: 130px;  
     }    
@@ -711,7 +707,7 @@ and (max-device-width : 600px) {
         position: absolute;
         top: 390px; 
         scale: 1;  
-        left: 200px;
+        left: 160px;
         height: 170px;
         width: 130px;
     }    
@@ -719,7 +715,7 @@ and (max-device-width : 600px) {
         position: absolute;
         top: 580px; 
         scale: 1;  
-        left: 120px;
+        left: 80px;
         height: 170px;
         width: 130px;   
     } 
@@ -752,12 +748,10 @@ and (max-device-width : 600px) {
         font-size: 80%;
     }
     .box24n{
-        border: 1px solid red;
         height: 10%;  
         
     }
     .div24{
-        border: 3px solid blue;
         margin-left: 1px;
         margin-top:1000px;
         display: flex;
