@@ -22,7 +22,7 @@
             <div class="topic">Ceylon Weather</div>
         </div>
         <input  id="search-bar" type="text" placeholder="enter the city" spellcheck="false">
-        <button id="my-location-button" onclick="setLocationWeatherData()" onmousedown="Leavel()" ><img src="image/mylocation.png" ></button>
+        <button id="my-location-button" onclick="setLocationWeatherData()" onmousedown="Leavel()" onkeypress=""><img src="image/mylocation.png" ></button>
         <button onclick="sendCurrentLocation()" id="search-button" onmousedown="Leave()" >Search</button>
         <div id="invalid-city">Plan your day</div>
         <div id="city-name"></div> 
@@ -35,7 +35,7 @@
             <button id="celcius-button">C</button>
         </div>
         <div id="status"></div>
-        <div id="walerts">Alerts : Flood Warning issued January 05 at 9:47PM EST until January 07 at 6:15AM EST by NWS"</div>
+        <div id="walerts"></div>
         <div id="humid-value"></div>
         <p id="wind-speed-value"></p>
         <button id="speed-unit-button">kph</button>
