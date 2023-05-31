@@ -14,6 +14,7 @@
 </head>
 <body>
     <div class="main-view">
+        <div class="glassView"></div>
         <div class="logo-topic">
             <div class="logo">
                 <img class="sun-image" src="image/sun.jpg" >
@@ -21,18 +22,20 @@
             <div class="topic">Ceylon Weather</div>
         </div>
         <input  id="search-bar" type="text" placeholder="enter the city" spellcheck="false">
-        <button id="my-location-button" onmousedown="Leavel()" ><img src="image/mylocation.png" ></button>
+        <button id="my-location-button" onclick="setLocationWeatherData()" onmousedown="Leavel()" ><img src="image/mylocation.png" ></button>
         <button onclick="sendCurrentLocation()" id="search-button" onmousedown="Leave()" >Search</button>
         <div id="invalid-city">Plan your day</div>
         <div id="city-name"></div> 
-        <div id="date-time"></div>
+        <div id="date"></div>
+        <div id="time"></div>
         <div class="img-div"></div>
         <img id="statusImage" src="image/119n.png" >
         <div id="temperature">
              <p id="ctemp"></p> 
-            <button id="celcius-button">°C</button>
+            <button id="celcius-button">C</button>
         </div>
         <div id="status"></div>
+        <div id="walerts">Alerts : Flood Warning issued January 05 at 9:47PM EST until January 07 at 6:15AM EST by NWS"</div>
         <div id="humid-value"></div>
         <p id="wind-speed-value"></p>
         <button id="speed-unit-button">kph</button>
@@ -44,7 +47,7 @@
         <div class="second-view">
             <div class="top-div">
                 <div class="forecast-boxes">
-                    <div class="weather-forecast">Weather forecast for next three days...
+                    <div class="weather-forecast">Weather forecast for next two days
                     </div>
                     <div class="three-days-box">
                         <div class="box" >
@@ -91,28 +94,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="box" >
-                            <div class="day" id="day3">2023/05/17</div>
-                            <div class="logo-temp">
-                                <div  class="temp">
-                                    <div  id="f3temperature"></div>
-                                    <div>|</div>
-                                    <div id="f3temperaturef"></div>
-                                </div>
-                                <div class="f1image"><img id="f3weather-image" src="" ></div>
-                            </div>
-                            <div class="fstatus" id="f3status">Clouds</div>
-                            <div class="fhum-speed">
-                                <div class="fhum">
-                                    <div class="fhum-value" id="f3hum-value">100%</div>
-                                    <div class="fhum-image"><img src="image/humidity.png" alt=""></div>
-                                </div>
-                                <div class="fspeed">
-                                    <div class="fhum-value" id="f3speed-value"></div>
-                                    <div class="fhum-image"><img src="image/wind.png" alt=""></div>
-                                </div>
-                            </div>
-                        </div>
+                        
                     </div>
                     <div class="histroy-text">Weather histroy for last seven days</div>
                 </div>
