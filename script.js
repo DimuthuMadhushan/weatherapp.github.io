@@ -1,7 +1,7 @@
 const apiKey="f3373d156860410a8d683135231405";
 const apiurl="https://api.weatherapi.com/v1/current.json?key=f3373d156860410a8d683135231405&q=";
 
-checkCurrentWeather("Galle");
+checkCurrentWeather("Colombo");
 function setLocationWeatherData(){
     if (navigator.geolocation) {
         document.getElementById("my-location-button").style.backgroundColor='#fff';
@@ -22,6 +22,7 @@ function sendCurrentLocation(){
     document.getElementById("search-button").style.backgroundColor='#fff';
     var searchedLocation=document.getElementById("search-bar").value;
     checkCurrentWeather(searchedLocation);
+    document.getElementById("search-bar").value="";
 }
 function Leave(){
     document.getElementById("search-button").style.backgroundColor='grey';
