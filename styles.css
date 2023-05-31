@@ -473,7 +473,6 @@ and (max-device-width : 600px) {
         left: 0;
     }
     .logo-topic{
-        z-index:-1;
         width:100%;
         height: 7%;
 
@@ -500,130 +499,134 @@ and (max-device-width : 600px) {
         flex: 1;
     }
     #search-bar{
-        top:8%;
-        height: 4%;
-        width: 60%;
+        top:60px;
+        height: 30px;
+        width: 240px;
         font-size: 15pt;
-        padding-left: 3%;      
-        margin-left: 8%;
+        padding-left: 10px;      
+        margin-left: 25px;
        
     }
     #my-location-button{
-        top:8.5%;
-        left: 72%;
+        top:65px;
+        left: 280px;
         width: 25Px;
         height:25px;
-        border-radius: 100%;
+        border-radius: 100px;
     }
     #my-location-button>img{
-        height: 50%;
+        height: 15px;
     }
     #search-button{
-        top: 8.5%;
-        left: 78%;
+        top: 65px;
+        left: 310px;
         padding: 5px;
-        font-size: 80%; 
+        font-size: 10pt; 
     }
     #invalid-city{
-        margin-top: 10%;
-        margin-left: 8%;
+        margin-top: 40px;
+        margin-left: 25px;
         color: rgb(216, 238, 18);
-        font-size: 100%;
+        font-size: 10pt;
     }
     .img-div{
         position: absolute;
-        top: 22%;
-        height: 14%;
-        width: 25%;
-        margin-left: 10%;
+        top: 160px;
+        height: 100px;
+        width: 100px;
+        margin-left: 40px;
     }
     #statusImage{
         position: absolute;
-        top: 22%;
-        height: 14%;
-        width: 25%;
-        margin-left: 10%;
+        top: 160px;
+        height: 100px;
+        width: 100px;
+        margin-left: 40px;
     } 
     #date{
+        border: #ec0202 solid;
         position: absolute;
-        top: 22%;
-        left: 40%;
-        width: 40%;
-        height: 2.5%;
-        font-size: 120%;
+        top: 160px;
+        left: 160px;
+        width: 100px;
+        height: 18px;
+        font-size: 14pt;
     }
     #time{
         position: absolute;
-        top: 25%;
-        left: 40%;
-        width: 40%;
-        height: 2.5%;
-        font-size: 120%;
+        top: 190px;
+        left: 160px;
+        width: 50px;
+        height: 18px;
+        font-size: 14pt;
     }
     #status{
         position: absolute;
-        top: 38%;  
+        top: 290px;  
         width: 100%;
-        height: 5%;
-        font-size: 150%;
+        height: 40px;
+        font-size: 18pt;
     }
     #walerts{
+        border: 1px solid red;
         position: absolute;
         width: 100%;
-        top: 43%;
+        top: 330px;
+        height: 30px;
     }
     #temperature{
+        border: 1px solid red;
         position: absolute;
-        width: 25%;
-        height: 5%;
-        top: 30%;
-        left: 40%;
+        width: 60px;
+        height: 40px;
+        top: 220px;
+        left: 160px;
         font-weight: bolder;
         font-size: 300%;
         align-items: center;
     }
     #celcius-button{
-        font-size: 60%; 
+        font-size: 20pt; 
     }
     #city-name{
-       margin-top: 0px;
+       margin-top: 1px;
        
     }
 
     #humid-value{
         position: absolute;
-        top: 48%;
-        left: 20%;
-        font-size: 250%;
+        top: 360px;
+        left: 80px;
+        font-size: 30pt;
     }
     #wind-speed-value{
         position: absolute;
-        top: 48%;
-        left: 55%;
-        font-size: 250%;
+        top: 360px;
+        left: 230px;
+        font-size: 30pt;
     }
     #speed-unit-button{
-        width: 15%;
-        height: 5%;
+        width: 60px;
+        height: 40px;
         position: absolute;
-        top: 49%;
-        left: 75%;
-        font-size: 150%;
+        top: 365px;
+        left: 310px;
+        font-size: 18pt;
        
     }
     #humidity-image{
         position: absolute;
-        top: 55%;
-        left: 20%;
+        top: 410px;
+        left: 80px;
     }
     #wind-image{
         position: absolute;
-        top: 55%;
-        left: 57%;
+        top: 410px;
+        left: 240px;
     }
     #humid-name{
         position: absolute;
-        top: 64%;
+        top: 480px;
         left: 18%;
     }
     #wind-name{
@@ -742,14 +745,17 @@ and (max-device-width : 600px) {
         font-size: 80%;
     }
     .box24n{
+        border: 1px solid red;
         height: 10%;  
         
     }
     .div24{
+        border: 3px solid blue;
         margin-left: 1px;
         margin-top:1000px;
         display: flex;
-        height: 70px;   
+        height: 100px;
+        margin-left: 100px;
     }
     #box241{
         position: absolute;
