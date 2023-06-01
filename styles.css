@@ -637,13 +637,13 @@ and (max-device-width : 600px) {
         height: 4%;
         display: flex;
         font-size: 100%;
-        top: 20px;
+        top: -10px;
         left: 18%;
     }
     .three-days-box{
         scale: 1;
         position: absolute;
-        top:60px;
+        top:40px;
         left: 22%;
         scale: 1;
     }
@@ -653,12 +653,12 @@ and (max-device-width : 600px) {
         height: 4%;
         display: flex;
         font-size: 100%;
-        top: 220px;
+        top: 200px;
         left: 18%;
     }
     .seven-days-box{
         position:absolute ;
-        top:300px;
+        top:260px;
         left: 60px;
         width: 300px;
         height: 750px;
@@ -681,7 +681,7 @@ and (max-device-width : 600px) {
     }    
     #box23{
         position: absolute;
-        top: 200px; 
+        top: 190px; 
         scale: 1;  
         left: 10px;
         height: 170px;
@@ -689,7 +689,7 @@ and (max-device-width : 600px) {
     }    
     #box24{
         position: absolute;
-        top: 200px; 
+        top: 190px; 
         scale: 1;  
         left: 160px;
         height: 170px;
@@ -697,7 +697,7 @@ and (max-device-width : 600px) {
     }    
     #box25{
         position: absolute;
-        top: 390px; 
+        top: 370px; 
         scale: 1;  
         left: 10px;
         height: 170px;
@@ -705,7 +705,7 @@ and (max-device-width : 600px) {
     }    
     #box26{
         position: absolute;
-        top: 390px; 
+        top: 370px; 
         scale: 1;  
         left: 160px;
         height: 170px;
@@ -713,7 +713,7 @@ and (max-device-width : 600px) {
     }    
     #box27{
         position: absolute;
-        top: 580px; 
+        top: 550px; 
         scale: 1;  
         left: 80px;
         height: 170px;
@@ -733,7 +733,7 @@ and (max-device-width : 600px) {
         height: 4%;
         display: flex;
         font-size: 100%;
-        top: 1050px;
+        top: 1000px;
         left: 18%;
     }
     .ntemp{
@@ -754,130 +754,130 @@ and (max-device-width : 600px) {
     
     #box241{
         position: absolute;
-        top :1130px;
-        left: 40px;
+        top :1080px;
+        left: 50px;
         
     }#box242{
         position: absolute;
-        top :1130px;
-        left:80px;
+        top :1080px;
+        left:90px;
     }
     #box243{
         position: absolute;
-        top :1130px;
-        left: 120px;
+        top :1080px;
+        left: 130px;
     }
     #box244{
         position: absolute;
-        top :1130px;
-        left: 160px;
+        top :1080px;
+        left: 170px;
     }
     #box245{
         position: absolute;
-        top :1130px;
-        left: 200px;
+        top :1080px;
+        left: 210px;
     }
     #box246{
         position: absolute;
-        top :1130px;
-        left: 240px;
+        top :1080px;
+        left: 250px;
     }
     #box247{
         position: absolute;
-        top :1130px;
-        left: 280px;
+        top :1080px;
+        left: 290px;
     }
     #box248{
         position: absolute;
-        top :1130px;
-        left: 320px;
+        top :1080px;
+        left: 330px;
     }
     #box249{
         position: absolute;
-        top :1220px;
-        left: 40px;
+        top :1170px;
+        left: 50px;
     }
     #box2410{
         position: absolute;
-        top :1220px;
-        left: 80px;
+        top :1170px;
+        left: 90px;
     }
     #box2411{
         position: absolute;
-        top :1220px;
-        left: 120px;
+        top :1170px;
+        left: 130px;
     }
     #box2412{
         position: absolute;
-        top :1220px;
-        left: 160px;
+        top :1170px;
+        left: 170px;
     }
     #box2413{
         position: absolute;
-        top :1220px;
-        left: 200px;
+        top :1170px;
+        left: 210px;
     }#box2414{
         position: absolute;
-        top :1220px;
-        left: 240px;
+        top :1170px;
+        left: 250px;
     }
     #box2415{
         position: absolute;
-        top :1220px;
-        left: 280px;
+        top :1170px;
+        left: 290px;
     }
     #box2416{
         position: absolute;
-        top :1220px;
-        left: 320px;
+        top :1170px;
+        left: 330px;
     }
     #box2417{
         position: absolute;
-        top :1310px;
-        left: 40px;
+        top :1260px;
+        left: 50px;
     }
     #box2418{
         position: absolute;
-        top :1310px;
-        left: 80px;
+        top :1260px;
+        left: 90px;
     }
     #box2419{
         position: absolute;
-        top :1310px;
-        left: 120px;
+        top :1260px;
+        left: 130px;
     }
     #box2420{
         position: absolute;
-        top :1310px;
-        left: 160px;
+        top :1260px;
+        left: 170px;
     }
     #box2421{
         position: absolute;
-        top :1310px;
-        left: 200px;
+        top :1260px;
+        left: 210px;
     }
     #box2422{
         position: absolute;
-        top :1310px;
-        left: 240px;
+        top :1260px;
+        left: 250px;
     }
     #box2423{
         position: absolute;
-        top :1310px;
-        left: 280px;
+        top :1260px;
+        left: 290px;
     }
     #box2424{
         position: absolute;
-        top :1310px;
-        left: 320px;
+        top :1260px;
+        left: 330px;
     }
     .radarmap{
         position: absolute;
-        top: 1410px;
+        top: 1350px;
         border-radius: 10px;
         height: 250px;
         width: 320px;
-        left:30px;
+        left:40px;
     }
 
 
@@ -898,7 +898,7 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
         }
         .logo-topic{
             width:100%;
-            height: 20%;
+            height: 60px;
     
         }
         .glassView{
@@ -922,99 +922,97 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
             flex: 1;
         }
         #search-bar{
-            top:5%;
-            height: 9%;
-            width: 28%;
+            top:12px;
+            height: 30px;
+            width:220px;
             font-size: 15pt;
-            padding-left: 3%;      
-            margin-left: 47%;
+            padding-left: 5px;      
+            margin-left: 400px;
            
         }
         #my-location-button{
-            top:6.5%;
-            left: 80%;
+            top:15px;
+            left: 640px;
             width: 25Px;
             height:25px;
             border-radius: 100%;
         }
         #my-location-button>img{
-            height: 50%;
+            height: 15px;
         }
         #search-button{
-            top: 6.5%;
-            left: 85%;
+            top: 15px;
+            left: 680px;
             padding: 5px;
-            font-size: 80%; 
+            font-size: 10pt; 
         }
         #invalid-city{
-            margin-top: 1%;
-            margin-left: 47%;
+            margin-top: 5px;
+            margin-left: 400px;
             color: rgb(216, 238, 18);
-            font-size: 100%;
+            font-size: 10pt;
         }
         .img-div{
             position: absolute;
-            top: 38%;
-            height: 30%;
-            width: 12%;
-            margin-left: 5%;
+            top: 130px;
+            height: 100px;
+            width: 100px;
+            margin-left: 40px;
         }
         #statusImage{
             position: absolute;
-            top: 38%;
-            height: 30%;
-            width: 12%;
-            margin-left: 5%;
+            top: 130px;
+            height: 100px;
+            width: 100px;
+            margin-left: 40px;
         } 
         #date{
             position: absolute;
-            top: 40%;
-            left: 20%;
-            width: 40%;
-            height: 2.5%;
-            font-size: 120%;
+            top: 130px;
+            left: 170px;
+            width: 100px;
+            height: 10px;
+            font-size: 14pt;
         }
         #time{
             position: absolute;
-            top: 48%;
-            left: 20%;
-            width: 40%;
-            height: 2.5%;
-            font-size: 120%;
+            top: 155px;
+            left: 170px;
+            width: 50px;
+            height: 10px;
+            font-size: 14pt;
         }
         #status{
             position: absolute;
-            top: 75%;  
+            top: 250px;  
             width: 100%;
-            height: 10%;
-            font-size: 150%;
+            height: 30px;
+            font-size: 15pt;
         }
         #walerts{
             position: absolute;
-            top: 88%;
+            top: 285px;
             width: 100%;
-            height: 8%;
+            height: 30px;
         }
-
-        
         #temperature{
             position: absolute;
-            width: 20%;
-            height: 5%;
-            top: 60%;
-            left: 20%;
+            width: 50px;
+            height: 20px;
+            top: 200px;
+            left: 165px;
             font-weight: bolder;
-            font-size: 250%;
+            font-size: 30pt;
             align-items: center;
         }
         #celcius-button{
-            font-size: 60%; 
+            font-size: 24pt; 
         }
         #city-name{
            position: absolute;
-           top: 18%;
-           left: 6%;
-           font-size:150%;
+           top: 70px;
+           left: 60px;
+           font-size:18pt;
            justify-content: flex-start;
            align-items: center;
            width: 50%;
@@ -1022,144 +1020,148 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
         }
         #humid-value{
             position: absolute;
-            top: 38%;
-            left: 45%;
-            font-size: 150%;
+            top: 130px;
+            left: 370px;
+            font-size: 18pt;
         }
         #wind-speed-value{
             position: absolute;
-            top: 38%;
-            left: 60%;
-            font-size: 150%;
+            top: 130px;
+            left: 480px;
+            font-size: 18pt;
         }
         #speed-unit-button{
-            width: 5%;
-            height: 8%;
+            width: 45px;
+            height: 30px;
             position: absolute;
-            top: 38%;
-            left: 75%;
-            font-size: 100%;
+            top: 130px;
+            left: 590px;
+            font-size: 14pt;
            
         }
         #humidity-image{
             position: absolute;
-            top: 50%;
-            left: 52%;
-            height:10%;
+            top: 160px;
+            left: 430px;
+            height:30px;
         }
         #wind-image{
             position: absolute;
-            top: 50%;
-            left: 68%;
-            height: 10%;
+            top: 160px;
+            left: 550px;
+            height: 30px;
         }
         #humid-name{
             position: absolute;
-            top: 64%;
-            left: 45%;
+            top: 200px;
+            left: 370px;
         }
         #wind-name{
             position: absolute;
-            top: 64%;
-            left: 56%;
+            top: 200px;
+            left: 450px;
         }
         .weather-forecast{
             position: absolute;
             width: 50%;
-            height: 6%;
-            font-size: 100%;
-            top: 25%;
-            left: 10%;
+            height: 30px;
+            font-size: 12pt;
+            top: 90px;
+            left: 60px;
         }
         .three-days-box{
             width: 50%;
             scale: 1;
             position: absolute;
-            top:33%;
-            left: 10%;
+            top: 130px;
+            left: 60px;
             scale: 1;
         }
         .histroy-text{
             position: absolute;
             width: 50%;
-            height: 6%;
+            height: 30px;
             display: flex;
-            font-size: 100%;
-            top:75%;
-            left: 10%;
+            font-size: 12pt;
+            top:280px;
+            left: 60px;
         }
         .seven-days-box{
             position:absolute ;
-            top:90%;
-            left: 10%;
-            width: 120%;
-            height: 100%;
+            top:340px;
+            left: 60px;
+            width: 650px;
+            height: 400px;
+        }
+        .f1image>img{
+            height: 40px;
+            right: 5px;
         }
         #box21{
             position: absolute;
-            top: 0%; 
+            top: 0px; 
             scale: 1;  
-            left: 0%;
-            height: 40%;
-            width: 18%;
+            left: 0px;
+            height: 180px;
+            width: 140px;
     
         }   
          #box22{
             position: absolute;
-            top: 0%; 
+            top: 0px; 
             scale: 1;  
-            left: 20%;
-            height: 40%;
-            width: 18%;  
+            left: 150px;
+            height: 180px;
+            width: 140px;  
         }    
         #box23{
             position: absolute;
             top: 0%; 
             scale: 1;  
-            left: 40%;
-            height: 40%;
-            width: 18%;   
+            left: 300px;
+            height: 180px;
+            width: 140px;   
         }    
         #box24{
             position: absolute;
             top: 0%; 
             scale: 1;  
-            left: 60%;
-            height: 40%;
-            width: 18%;  
+            left: 450px;
+            height: 180px;
+            width: 140px;  
         }    
         #box25{
             position: absolute;
-            top: 45%; 
+            top: 190px; 
             scale: 1;  
-            left: 0%;
-            height: 40%;
-            width: 18%;  
+            left: 0px;
+            height: 180px;
+            width: 140px;  
         }    
         #box26{
             position: absolute;
-            top: 45%; 
+            top: 190px; 
             scale: 1;  
-            left: 20%;
-            height: 40%;
-            width: 18%;
+            left: 150px;
+            height: 180px;
+            width: 140px;
         }    
         #box27{
             position: absolute;
-            top: 45%; 
+            top: 190px; 
             scale: 1;  
-            left: 40%;
-            height: 40%;
-            width: 18%;   
+            left: 300px;
+            height: 180px;
+            width: 140px;   
         } 
        
         .next{
             position: absolute;
             width: 50%;
-            height: 6%;
-            font-size: 100%;
-            top: 180%;
-            left: 10%;
+            height: 30px;
+            font-size: 12pt;
+            top: 720px;
+            left: 60px;
         }
         .ntemp{
             margin-top: 10px;
@@ -1179,129 +1181,129 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
         }
         #box241{
             position: absolute;
-            top :200%;
-            left: 10%;
+            top :800px;
+            left: 60px;
             
         }#box242{
             position: absolute;
-            top :200%;
-            left: 15%;
+            top :800px;
+            left: 90px;
         }
         #box243{
             position: absolute;
-            top :200%;
-            left: 20%;
+            top :800px;
+            left: 120px;
         }
         #box244{
             position: absolute;
-            top :200%;
-            left: 25%;
+            top :800px;
+            left: 150px;
         }
         #box245{
             position: absolute;
-            top :200%;
-            left: 30%;
+            top :800px;
+            left:180px;
         }
         #box246{
             position: absolute;
-            top :200%;
-            left: 35%;    
+            top :800px;
+            left: 210px;    
         }
         #box247{
             position: absolute;
-            top :200%;
-            left: 40%;
+            top :800px;
+            left: 240px;
         }
         #box248{
             position: absolute;
-            top :200%;
-            left: 45%;
+            top :800px;
+            left: 270px;
         }
         #box249{
             position: absolute;
-            top :200%;
-            left: 50%;
+            top :800px;
+            left: 300px;
         }
         #box2410{
             position: absolute;
-            top :200%;
-            left: 55%;        }
+            top :800px;
+            left: 330px;        }
         #box2411{
             position: absolute;
-            top :200%;
-            left: 60%;
+            top :800px;
+            left: 360px;
         }
         #box2412{
             position: absolute;
-            top :200%;
-            left: 65%;
+            top :800px;
+            left: 390px;
         }
         #box2413{
             position: absolute;
-            top :200%;
-            left: 70%;
+            top :800px;
+            left: 420px;
         }#box2414{
             position: absolute;
-            top :200%;
-            left: 75%;
+            top :800px;
+            left: 450px;
         }
         #box2415{
             position: absolute;
-            top :200%;
-            left: 80%;
+            top :800px;
+            left: 480px;
         }
         #box2416{
             position: absolute;
-            top :200%;
-            left: 85%;
+            top :800px;
+            left: 510px;
         }
         #box2417{
             position: absolute;
-            top :200%;
-            left: 90%;
+            top :800px;
+            left: 540px;
         }
         #box2418{
             position: absolute;
-            top :200%;
-            left: 95%;
+            top :800px;
+            left: 570px;
         }
         #box2419{
             position: absolute;
-            top :200%;
-            left: 100%;
+            top :800px;
+            left: 600px;
         }
         #box2420{
             position: absolute;
-            top :200%;
-            left: 105%;
+            top :800px;
+            left: 630px;
         }
         #box2421{
             position: absolute;
-            top :200%;
-            left: 110%;
+            top :800px;
+            left: 660px;
         }
         #box2422{
             position: absolute;
-            top :200%;
-            left: 115%;
+            top :800px;
+            left: 690px;
         }
         #box2423{
             position: absolute;
-            top :200%;
-            left: 120%;
+            top :800px;
+            left: 720px;
         }
         #box2424{
             position: absolute;
-            top :200%;
-            left: 125%;
+            top :800px;
+            left: 750px;
         }
         .radarmap{
             position: absolute;
-            top: 26%;
+            top: 110px;
             border-radius: 10px;
-            height: 50%;
-            width: 70%;
-            left: 65%;
+            height: 220px;
+            width: 400px;
+            left: 380px;
         }
     
 }
