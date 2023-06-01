@@ -463,13 +463,14 @@ and (max-device-width : 600px) {
     .main-view{
         position: absolute;
         width :100%;
-        height: 100%;
+        height: 760px;
         background: linear-gradient(135deg,#020607,#065818);
        
     }
     .second-view{
         position: absolute;
-        top: 71%;
+        top: 760px;
+        height: 1400px;
         left: 0;
     }
     .logo-topic{
@@ -479,9 +480,9 @@ and (max-device-width : 600px) {
     }
     .glassView{
         position: absolute;
-        top: 100%;
+        top: 760px;
         width: 100%;
-        height: 195%;
+        height: 1400px;
         background-color: #000;
         background: linear-gradient(135deg,#065818,#0ed7f1);
 
@@ -634,31 +635,32 @@ and (max-device-width : 600px) {
     .weather-forecast{
         position: absolute;
         width: 100%;
-        height: 4%;
+        height: 30px;
         display: flex;
-        font-size: 100%;
-        top: -10px;
-        left: 18%;
+        font-size: 12pt;
+        top: -260px;
+        left: 60px;
     }
     .three-days-box{
         scale: 1;
         position: absolute;
-        top:40px;
-        left: 22%;
+        top:-220px;
+        left: 60px;
         scale: 1;
     }
     .histroy-text{
         position: absolute;
         width: 100%;
-        height: 4%;
+        height: 30px;
         display: flex;
-        font-size: 100%;
-        top: 200px;
-        left: 18%;
+        font-size: 12pt;
+        top: -20px;
+        left: 60px;
     }
     .seven-days-box{
+        border: 1px solid red;
         position:absolute ;
-        top:260px;
+        top:40px;
         left: 60px;
         width: 300px;
         height: 750px;
@@ -730,153 +732,153 @@ and (max-device-width : 600px) {
     .next{
         position: absolute;
         width: 100%;
-        height: 4%;
+        height: 30px;
         display: flex;
-        font-size: 100%;
-        top: 1000px;
-        left: 18%;
+        font-size: 12pt;
+        top: 770px;
+        left: 60px;
     }
     .ntemp{
         margin-top: 10px;
-        font-size: 100%;
+        font-size: 10pt;
         color: #fcfcf3;
     }
     .nimage>img{
         height: 20px;
     }
     .ntime{
-        font-size: 80%;
+        font-size: 8pt;
     }
     .box24n{
-        height: 10%;  
+        height: 80px;  
         
     }
     
     #box241{
         position: absolute;
-        top :1080px;
+        top :850px;
         left: 50px;
         
     }#box242{
         position: absolute;
-        top :1080px;
-        left:90px;
+        top :850px;
+        left:80px;
     }
     #box243{
         position: absolute;
-        top :1080px;
-        left: 130px;
+        top :850px;
+        left: 110px;
     }
     #box244{
         position: absolute;
-        top :1080px;
-        left: 170px;
+        top :850px;
+        left: 140px;
     }
     #box245{
         position: absolute;
-        top :1080px;
-        left: 210px;
+        top :850px;
+        left: 170px;
     }
     #box246{
         position: absolute;
-        top :1080px;
-        left: 250px;
+        top :850px;
+        left: 200px;
     }
     #box247{
         position: absolute;
-        top :1080px;
-        left: 290px;
+        top :850px;
+        left: 230px;
     }
     #box248{
         position: absolute;
-        top :1080px;
-        left: 330px;
+        top :850px;
+        left: 260px;
     }
     #box249{
         position: absolute;
-        top :1170px;
+        top :940px;
         left: 50px;
     }
     #box2410{
         position: absolute;
-        top :1170px;
-        left: 90px;
+        top :940px;
+        left: 80px;
     }
     #box2411{
         position: absolute;
-        top :1170px;
-        left: 130px;
+        top :940px;
+        left: 110px;
     }
     #box2412{
         position: absolute;
-        top :1170px;
-        left: 170px;
+        top :940px;
+        left: 140px;
     }
     #box2413{
         position: absolute;
-        top :1170px;
-        left: 210px;
+        top :940px;
+        left: 170px;
     }#box2414{
         position: absolute;
-        top :1170px;
-        left: 250px;
+        top :940px;
+        left: 200px;
     }
     #box2415{
         position: absolute;
-        top :1170px;
-        left: 290px;
+        top :940px;
+        left: 230px;
     }
     #box2416{
         position: absolute;
-        top :1170px;
-        left: 330px;
+        top :940px;
+        left: 260px;
     }
     #box2417{
         position: absolute;
-        top :1260px;
+        top :1030px;
         left: 50px;
     }
     #box2418{
         position: absolute;
-        top :1260px;
-        left: 90px;
+        top :1030px;
+        left: 80px;
     }
     #box2419{
         position: absolute;
-        top :1260px;
-        left: 130px;
+        top :1030px;
+        left: 110px;
     }
     #box2420{
         position: absolute;
-        top :1260px;
-        left: 170px;
+        top :1030px;
+        left: 140px;
     }
     #box2421{
         position: absolute;
-        top :1260px;
-        left: 210px;
+        top :1030px;
+        left: 170px;
     }
     #box2422{
         position: absolute;
-        top :1260px;
-        left: 250px;
+        top :1030px;
+        left: 200px;
     }
     #box2423{
         position: absolute;
-        top :1260px;
-        left: 290px;
+        top :1030px;
+        left: 230px;
     }
     #box2424{
         position: absolute;
-        top :1260px;
-        left: 330px;
+        top :1030px;
+        left: 260px;
     }
     .radarmap{
         position: absolute;
-        top: 1350px;
+        top: 1130px;
         border-radius: 10px;
         height: 250px;
-        width: 320px;
+        width: 310px;
         left:40px;
     }
 
@@ -887,14 +889,15 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
         .main-view{
             position: absolute;
             width :100%;
-            height: 100%;
+            height: 325px;
             background: linear-gradient(135deg,#020607,#065818);
            
         }
         .second-view{
             position: absolute;
-            top: 71%;
+            top: 325px;
             left: 0;
+            height: 830px;
         }
         .logo-topic{
             width:100%;
@@ -903,9 +906,9 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
         }
         .glassView{
             position: absolute;
-            top: 100%;
+            top: 325px;
             width: 100%;
-            height: 235%;
+            height: 830px;
             background-color: #000;
             background: linear-gradient(135deg,#065818,#0ed7f1);
     
@@ -927,12 +930,12 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
             width:220px;
             font-size: 15pt;
             padding-left: 5px;      
-            margin-left: 400px;
+            margin-left: 350px;
            
         }
         #my-location-button{
             top:15px;
-            left: 640px;
+            left: 590px;
             width: 25Px;
             height:25px;
             border-radius: 100%;
@@ -942,7 +945,7 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
         }
         #search-button{
             top: 15px;
-            left: 680px;
+            left: 620px;
             padding: 5px;
             font-size: 10pt; 
         }
@@ -1066,14 +1069,14 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
             width: 50%;
             height: 30px;
             font-size: 12pt;
-            top: 90px;
+            top: 0px;
             left: 60px;
         }
         .three-days-box{
             width: 50%;
             scale: 1;
             position: absolute;
-            top: 130px;
+            top: 50px;
             left: 60px;
             scale: 1;
         }
@@ -1083,12 +1086,12 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
             height: 30px;
             display: flex;
             font-size: 12pt;
-            top:280px;
+            top:230px;
             left: 60px;
         }
         .seven-days-box{
             position:absolute ;
-            top:340px;
+            top:300px;
             left: 60px;
             width: 650px;
             height: 400px;
@@ -1160,7 +1163,7 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
             width: 50%;
             height: 30px;
             font-size: 12pt;
-            top: 720px;
+            top: 680px;
             left: 60px;
         }
         .ntemp{
@@ -1172,138 +1175,138 @@ and (min-device-width:600px) and (max-device-width : 1280px) {
             height: 20px;
         }
         .ntime{
-            font-size: 80%;
+            font-size: 8pt;
         }
         .box24n{
         
-            height: 20%;  
+            height: 70px;  
             
         }
         #box241{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 60px;
             
         }#box242{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 90px;
         }
         #box243{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 120px;
         }
         #box244{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 150px;
         }
         #box245{
             position: absolute;
-            top :800px;
+            top :750px;
             left:180px;
         }
         #box246{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 210px;    
         }
         #box247{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 240px;
         }
         #box248{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 270px;
         }
         #box249{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 300px;
         }
         #box2410{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 330px;        }
         #box2411{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 360px;
         }
         #box2412{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 390px;
         }
         #box2413{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 420px;
         }#box2414{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 450px;
         }
         #box2415{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 480px;
         }
         #box2416{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 510px;
         }
         #box2417{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 540px;
         }
         #box2418{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 570px;
         }
         #box2419{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 600px;
         }
         #box2420{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 630px;
         }
         #box2421{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 660px;
         }
         #box2422{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 690px;
         }
         #box2423{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 720px;
         }
         #box2424{
             position: absolute;
-            top :800px;
+            top :750px;
             left: 750px;
         }
         .radarmap{
             position: absolute;
-            top: 110px;
+            top: 10px;
             border-radius: 10px;
             height: 220px;
-            width: 400px;
-            left: 380px;
+            width: 380px;
+            left: 370px;
         }
     
 }
