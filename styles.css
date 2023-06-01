@@ -658,7 +658,6 @@ and (max-device-width : 600px) {
         left: 60px;
     }
     .seven-days-box{
-        border: 1px solid red;
         position:absolute ;
         top:40px;
         left: 60px;
